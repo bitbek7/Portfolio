@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Bibek Pujara</span></a>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skill">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <button class="visit-btn" onclick="window.open('https://github.com/bitbek7', '_blank')">Visit Github
+        </button>
+    </header>
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="prof.png" alt="Bibek's Photo">
+
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Bibek Pujara</h1>
+                    <span class="typing-text">Backend Developer</span><span class="cursor">|</span>
+                </div>
+
+                <div class="btn-group">
+                    <a href="Resume7.pdf" class="btn" download>Download CV </a>
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/bitbek7" target="_blank" style="color: inherit;"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/bibek-pujara-264284331/" target="_blank"
+                        style="color: inherit;"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-info">
+
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Frontend Development</span>
+                    <h4>HTML</h4>
+                    <h4>CSS</h4>
+                    <h4>React.js</h4>
+
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <span>Backend Development</span>
+                    <h4>Node js </h3>
+                        <h4>Express.js</h4>
+                        <h4>REST APIs</h4>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Database</span>
+                    <h4>MongoDB</h4>
+                    <h4>Mongoose</h4>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span>Tools/AI</span>
+                    <h4>Git</h4>
+                    <h4>GitHub</h4>
+                    <h4>Postman</h4>
+                    <h4>Docker</h4>
+                    <h4>Antigraviy</h4>
+                    <h4>Cursor</h4>
+
+                </div>
+            </div>
+
+
+            <img src="prof.png" alt="Bibek Pujara">
+
+        </div>
+
+
+    </section>
+
+
+
+    <section id="projects" class="porjects">
+        <h3 class="section-title">Projects</h3>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="PrepPilot AI.png" alt="PrepPilot AI">
+                <h3>PrepPilot AI</h3>
+                <p>PrepPilot AI helps job seekers build ATS-friendly resumes, analyze job descriptions, calculate match
+                    scores, identify skill gaps, and generate personalized interview questions and learning roadmaps.
+                </p>
+                <div class="btn-group">
+                    <a href="#" class="btn" target="_blank">Live Demo</a>
+                    <a href="https://github.com/bitbek7/PrepPilot-AI" class="btn" target="_blank">Github Repo</a>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <img src="Screenshot 2026-07-13 141221.png" alt="Smart Payroll">
+                <h3>PayrollPro</h3>
+                <p>Full-stack payroll management system featuring employee management, attendance tracking, payroll
+                    processing, role-based access control, and analytics dashboard, built with modern web technologies.
+                </p>
+                <div class="btn-group">
+                    <a href="#" class="btn" target="_blank">Live Demo</a>
+                    <a href="#" class="btn" target="_blank">Github Repo</a>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <img src="portfolio.png" alt="PrepPilot AI">
+                <h3>Portfolio</h3>
+                <p>Personal portfolio website showcasing my About, Skills, Projects, and Contact sections, built using
+                    HTML5, CSS3, and JavaScript</p>
+                <div class="btn-group">
+                    <a href="#" class="btn" target="_blank">Live Demo</a>
+                    <a href="#" class="btn" target="_blank">Github Repo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+
+        <!-- Replace YOUR_ACCESS_KEY_HERE with your access key from https://web3forms.com/ -->
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+            <input type="hidden" name="access_key" value="db3d1846-d958-4ccf-b9c6-88c0a8aaf749">
+
+            <div class="contact-container">
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email"
+                        pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$"
+                        title="Please enter a valid email address" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="textarea-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn send-btn">Send Message</button>
+                    <div id="form-result"></div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">&copy; 2026 Bibek Pujara | All Rights Reserved.</p>
+
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
